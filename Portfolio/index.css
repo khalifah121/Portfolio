@@ -1,0 +1,611 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* SIDE BAR STYLE */
+.side_bar{
+    display: block;
+    width: 25%;
+    background-color: aliceblue;
+    padding: 35px 80px;
+    height: 45pc;
+    margin-left: 50px;
+    position: fixed;
+}
+.div_img img{
+height:150px;
+border-radius:100px;
+margin-top: 30%;
+margin-right: auto;
+display: block;
+object-fit: cover;
+width:150px;
+}
+ 
+ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.header_h3 a{
+    text-decoration: none;
+}
+.header_h3{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.header_h4{
+    margin-top: 0.5rem;
+    color: rgb(109, 100, 100);
+    text-align: center;
+    cursor: pointer;
+}
+.header_a{
+color: rgb(109, 100, 100);
+transition: 0.5s; 
+text-decoration: none;
+font-size: 1rem;
+outline: none;
+}
+ul li a:hover{
+color: #2c98f0;
+outline: none;
+text-decoration: none;
+border-bottom: 2px #2c98f0 solid; 
+transition: .1s;
+}
+ul li.actives a{
+    color: #2c98f0;
+    border-bottom: 2px #2c98f0 solid; 
+}
+ul li.nav_bar{
+    margin-top: 1rem;
+}
+.side_footer{
+    margin-top: 2rem;
+}
+.header_p{
+    font-size: 15px;
+}
+span{
+    color: #2c98f0;
+}
+/* END OF SIDE BAR STYLE */
+ 
+
+
+/* Home section style */
+.main_body{
+    margin-left: 28.5%;
+}
+.bodycontent{
+    background-image: url(african-american-man-sitting-desk-smiles.jpg);
+    /* background-image: url(ceo3.jpg); */
+    height: 43pc;
+    /* max-width: 150%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 50px 50px;
+}   
+.body_context_first_text{
+    font-weight: 700;
+    font-size: 70px;    
+    letter-spacing: 1px;
+    margin-top: 5rem;
+    letter-spacing: 5px;
+}
+.body_context_first_texts{
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 1px;
+    margin-top: 1.5rem;
+    letter-spacing: 5px;
+}
+.body_h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.body_a{
+    color: #2c98f0;
+    text-decoration: none;
+    margin-left:10px;
+    border-bottom: 2px #2c98f0 solid;
+}
+.body_h6{
+    border: 1px solid black;
+    width: 20%;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin-top: 4.5%;
+    font-weight: lighter;
+}
+/* End of Home section style */
+
+/* About Us */
+.about_container{
+    margin: 25% 30%;
+    width: 60%;
+    padding: 20px;
+}
+.about_h4{
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.about_h1{
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.about_p{
+    margin-top: 4rem;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.about_h5{
+    margin-top: 3rem;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.squares{
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    width: 100%;
+    margin-top: 5rem;
+    gap: 2rem;
+    transition: .9s ease-in;
+
+}
+.square{
+    background-color:red;
+    width: 110%;
+    height: 10rem;
+    display: flex;
+    padding-top: 40px ;
+    border-bottom: 3px navy solid;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.square:hover{
+    transition: .15s;
+    margin-top: -8px;
+}
+.red{
+    border-bottom: 3px red solid;
+}
+.yellow{
+    border-bottom: 3px yellow solid;
+}
+.purple{
+    border-bottom: 3px purple solid;
+}
+.logos{
+    margin-left: 15px;
+}
+/* .square:first-child .bottom,.square:nth-child(2) .bottom 
+ {
+  background-color: navy;
+} */
+.square_topic{
+    letter-spacing: 2px;
+    /* margin-top: 20px; */
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.mobility,.cloud,.security,.data{
+    margin-left: 40px;
+}
+
+/* End of About us */
+
+
+
+/* Hire */
+.hire {
+    padding: 2em;
+    background: #f9bf3f;
+    margin-top: 8rem;
+}
+.hire h2 {
+    line-height: 1.5;
+}
+.hire .btn-hire {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    bordeR: 1px solid #000;
+    padding: 2px 10px; 
+    text-decoration: none;
+}
+/* End of Hire style */
+
+
+
+
+/* Services */
+.services_top{
+    margin-top: 20%;
+    padding: 25px;
+    width: 50%;
+    /* background-color: black; */
+}
+.services_h4{
+    margin-bottom: 20%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.services_h1{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.services_wrap{
+    display: flex;
+    gap: 1.5rem;
+    height: 20pc;
+}
+.serv:hover{
+    transition: .1s;
+}
+.service_box{
+    width: 110%;
+    height: 10rem;
+    display: block;
+    border-bottom: 2px navy solid;
+    height: 15pc;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.red_service{
+    border-bottom: 2px red solid;
+}
+.yellow_service{
+    border-bottom: 2px yellow solid;
+}
+.purple_service{
+    border-bottom: 2px purple solid;
+}
+.green_service{
+    border-bottom: 2px green solid;
+}
+.blue_service{
+    border-bottom: 2px blue solid;
+}
+.logos_service{
+    text-align: center;
+}
+.serv_text{
+    margin: 30px 70px ;
+}
+.bod1{
+    padding: 20px;
+}
+.serve_text1{
+    text-align: center;
+}
+.serv_img{
+    background-image: url(hero-bg.jpg);
+    width: 100%;
+    height: 15pc;
+    background-size: contain;
+    margin-top: 9rem;
+    padding: 70px;
+}
+.img_wrap{
+    width: 100%;
+    height: 8pc;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+}
+.img_contain{
+    color: white;
+    display: block;
+    margin-left: 45px;
+}
+.img_text{
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+.img_head{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* End of services */
+
+
+/* Skills */
+.skills{
+    margin-top: 25%;
+}
+.skill_h4{
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.skill_h1{
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.skill_p{
+    margin-top: 10%;
+    font-size: 17px;
+}
+.head_div_cont{
+    display: block;
+    margin-top: 5%;
+}
+.skill_level{
+    display: block;
+}
+.head_div_text{
+    display: flex;
+    gap: 10rem;
+}
+.p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.p_text{
+    color: navy;
+    font-size: 1rem;
+}
+.head-div{
+    display: flex;
+    gap: 1.6rem;
+}
+.head-div1{
+    display: flex;
+    margin-top: 7%;
+    gap: 1.6rem;
+}
+.head-div2{
+    display: flex;
+    margin-top: 7%;
+    gap: 1.6rem;
+}
+.div1{
+    background-color: blue;
+    width: 83%;
+    height: 0.5pc;
+    border-radius: 60px;
+}
+.div2{
+    background-color: gray;
+    height: 0.5pc;
+    width: 50%;
+    border-radius: 60px;
+}
+.div1_red{
+    background: red;
+    width: 50%;
+}
+.div1_yellow{
+    background:yellow;
+    width: 80%;
+}
+.div1_purple{
+    background: purple;
+    width: 90%;
+}
+.div1_green{
+    background: green;
+    width: 70%;
+}
+.div1_navy{
+    background: navy;
+    width: 70%;
+}
+/* End of skills */
+
+
+
+/* Education */
+.education_container{
+    margin-top: 30%;
+}
+.education{
+    margin-bottom: 10%;
+}
+.education_h4{
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.education_h1{
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+/* End of Education */
+
+
+/* work */
+/* .work_container{
+    margin-top: 30%;
+    position: relative;
+}
+.work_text{
+    margin-bottom: 25%;
+}
+.work_pic{
+    height: 15pc;
+    position: absolute;
+    box-shadow: 0 10px 20px black;
+    max-width: 50%;
+}
+.work1{
+    height: 15pc;
+    max-width: 100%;
+    object-fit: cover;
+}
+.work2{
+    height: 15pc;
+    max-width: 50%;
+    margin-left: 60%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.contents{
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.work_pic:hover .overlay{
+    opacity: 0.8;
+} */
+.cantainer {
+    display: flex;
+    width: 90%;
+    margin: 3rem 1rem;
+    gap: 15rem;
+}
+.faces {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+}
+.faces img {
+    width: 150%;
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: 0 10px 20px black;
+}
+.pic{
+    width: 120%;
+}
+.text {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: block;
+    width: 180%;
+    background-color: #00000050;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+.text_texts{
+    margin-top: 35%;
+    margin-left: 40%;
+    font-weight: 600;
+}
+.text_js{
+    margin-top: 35%;
+    margin-left: 40%;
+    font-weight: 600;
+}
+.texts_js{
+    margin-left: 39%;
+    font-weight: 600;
+}
+.text_text{
+    margin-left: 41%;
+    font-weight: 600;
+}
+.faces:hover .text {
+    opacity: 0.8;
+}
+/* End Of Work */
+
+
+/* contacts */
+.nav-contacts{
+    /* margin-top: 40px;     */
+    display: flex;
+    justify-content: space-between;
+}
+.div-cont{
+    margin-top: 100px;
+}
+.div-cont1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.div-cont1 p{
+   margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.iframes{
+    padding: 30px;
+    align-items: center;
+    color: lightblue;
+    border-radius: 10%;
+    font-weight: 1000;
+    background-color: grey;
+    text-transform: capitalize  ;
+}
+.contact2{
+    margin-top: 50px;
+    /* top: 0; */
+    margin-left: 50px;
+}
+.div-conts input{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#teatarea{
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: rgb(230, 230, 230);
+    transition: 10s;
+    outline: none;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(1, 189, 252);
+    border: none;
+    color: white;
+  
+}
